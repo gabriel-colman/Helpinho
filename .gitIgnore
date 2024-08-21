@@ -1,0 +1,42 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Backend
+/backend/dist/
+backend/.serverless/
+backend/.webpack/
+backend/.nyc_output/
+
+# Angular
+/frontend/dist/
+frontend/out-tsc/
+frontend/.angular/
+frontend/.cache/
+frontend/.firebase/
+
+# Compiled TypeScript
+*.tsbuildinfo
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Miscellaneous
+.DS_Store
+.env
+.env.local
+.env.*.local
+.env.test.local
+.env.production.local

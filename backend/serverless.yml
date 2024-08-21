@@ -1,0 +1,19 @@
+service: helpinho-backend
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: us-east-1
+
+functions:
+  createHelp:
+    handler: src/functions/createHelp/index.handler
+  getHelps:
+    handler: src/functions/getHelps/index.handler
+  updateHelp:
+    handler: src/functions/updateHelp/index.handler
+  auth:
+    handler: src/functions/auth/index.handler
+
+plugins:
+  - serverless-offline
